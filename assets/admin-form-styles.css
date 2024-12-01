@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('../assets/img03.jpg') no-repeat center center fixed;
+    /* Adjust the path */
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #097371;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0px 0 !important;
+    /* Reduced padding to make the navbar thinner */
+    margin-top: 20px;
+
+    justify-content: space-around;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 0px;
+    margin-left: 0px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px 5%;
+    border-radius: 5px;
+    display: inline-block;
+
+    transition: background-color 0.3s ease;
+}
+
+/* Form Container Styles */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #bebcbc;
+    font-size: 1.2em;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+}
+
+/* Button Styles */
+button {
+    width: 80%;
+    padding: 15px;
+    margin-left: 40px;
+    background-color: #295b54;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #258a8c;
+    transform: scale(1.05);
+}
+
+/* Links */
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    margin-top: 15px;
+}
+
+a {
+    color: #50bdae;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+
+    background-color: #333;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s;
+    width: 200px;
+}
+
+
+.cbtn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #097371;
+
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s;
+    width: 200px;
+}
+
+.cbtn:hover {
+    background-color: #da6161;
+    transform: scale(1.05);
+}
+
+
+
+.btn:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('../assets/img03.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin: 50px 0 30px;
+    color: #097371;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s;
+    width: 200px;
+}
+
+.cbtn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #097371;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s;
+    width: 200px;
+}
+
+.cbtn:hover {
+    background-color: #da6161;
+    transform: scale(1.05);
+}
+
+.btn:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+/* Form Styles */
+.container1 {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.765);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #bebcbc;
+    font-size: 1.2em;
+}
+
+button {
+    width: 70%;
+    padding: 10px;
+    margin-left: 40px;
+    background-color: #295b54;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Admin Dashboard Button */
+.admin-dashboard {
+    float: right;
+    margin-top: 18px !important;
+}
+
+.admin-dashboard a {
+    background-color: #da6161;
+    padding: 5px 6px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.admin-dashboard a:hover {
+    background-color: #ff8b8b;
+    transform: scale(1.05);
+}

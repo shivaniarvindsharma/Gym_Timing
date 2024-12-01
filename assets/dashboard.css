@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('../assets/img02.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin: 50px 0 30px;
+    color: #097371;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+/* Button Container */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+
+    background-color: #333;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s;
+    width: 200px;
+}
+
+
+.cbtn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #da6161;
+
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s;
+    width: 200px;
+}
+
+.cbtn:hover {
+    background-color: #da6161;
+    transform: scale(1.05);
+}
+
+
+
+.btn:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+
+
+
+/* Signup Button */
+.btn-signup {
+    color: #50bdae;
+}
+
+.btn-signup:hover {
+    text-decoration: underline;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align: left;
+    color: #ffffff;
+}
+
+table th {
+    /* background-color: #097371; */
+    background-color: #036e6c;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+table tr:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0px 0 !important;
+    margin-top: 20px;
+
+    justify-content: space-around;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 0px;
+    margin-left: 0px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px 5%;
+    border-radius: 5px;
+    display: inline-block;
+
+    transition: background-color 0.3s ease;
+}
+
+
+/* Admin Dashboard Button */
+.admin-dashboard {
+    float: right;
+    margin-top: 18px !important;
+}
+
+.admin-dashboard a {
+    background-color: #da6161;
+    padding: 5px 6px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.admin-dashboard a:hover {
+    background-color: #ff8b8b;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    table {
+        width: 100%;
+    }
+}
+
+.container1 {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.765);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+input[type="hidden"],
+input[type="text"],
+input[type="date"],
+select[id="equipment"],
+select[id="preferred_slot"],
+textarea[id="content"] {
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #bebcbc;
+    font-size: 1.2em;
+}
+
+button {
+    width: 70%;
+    padding: 10px;
+    margin-left: 40px;
+    background-color: #295b54;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.admin-dashboard1 {
+    float: right;
+    margin-top: 0px !important;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.admin-dashboard1 a {
+    background-color: #da6161;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+
+/* Group Section */
+.group-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.group-container1 {
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Group Title */
+.group-container h3 {
+    text-align: center;
+    color: #097371;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+
+.h3 {
+    text-align: center;
+    color: #097371;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+/* Group Selection Dropdown */
+.select-group {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1em;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.select-group option {
+    padding: 10px;
+}
+
+/* Group Members Table */
+.group-table {
+    width: 90%;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.group-table th,
+.group-table td {
+    padding: 15px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.group-table th {
+    background-color: #036e6c;
+}
+
+.group-table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.group-table tr:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Group Action Buttons */
+.group-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.group-actions button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #50bdae;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.group-actions button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Group Members Details */
+.group-member-details {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    color: white;
+}
+
+.group-member-details label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.group-member-details p {
+    margin-bottom: 5px;
+}
+
+.group-member-details .member-info {
+    margin-left: 10px;
+}
